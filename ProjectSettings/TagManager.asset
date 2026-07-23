@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - MovementCollision
-  - 
+  - WalkableTiles
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 647842987
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

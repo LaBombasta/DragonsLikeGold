@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6889428977300742452}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Character Anchor Point
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 6889428978214712926}
   - component: {fileID: 6889428978214712921}
   - component: {fileID: 6889428978214712920}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BasicTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 6889428978214712925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.5, y: -0.25, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6889428977300742452}
@@ -157,7 +157,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterAnchor: {fileID: 6889428977300742452}
+  gridLocation: {x: 0, y: 0}
   imOccupied:
     serializedVersion: 2
     m_Bits: 65
   myCollider: {fileID: 6889428978214712926}
+  G: 0
+  H: 0
+  isBlocked: 0
+  previous: {fileID: 0}
